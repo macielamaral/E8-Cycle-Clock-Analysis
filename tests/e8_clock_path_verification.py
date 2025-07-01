@@ -43,6 +43,9 @@ def generate_shells_from_rotor(rotor):
     shells_a = [seed_a @ np.linalg.matrix_power(rotor, k) for k in range(5)]
     shells_b = [seed_b @ np.linalg.matrix_power(rotor, k) for k in range(5)]
     
+    #print(f"  shells_a: '{shells_a}'.")
+    #print(f"  shells_b: '{shells_b}'.")
+
     final_shells = [item for pair in zip(shells_a, shells_b) for item in pair]
     print("Shells generated successfully.")
     return final_shells
@@ -115,7 +118,10 @@ if __name__ == "__main__":
     s_ok_set1 = test_vertex_cycle(s_rotor, 's (C5) on first shell set (even indices)', 5, LAMBDA[0][0], vec_map)
     s_ok_set2 = test_vertex_cycle(s_rotor, 's (C5) on second shell set (odd indices)', 5, LAMBDA[1][0], vec_map)
     t_ok = test_vertex_cycle(t_rotor, 't (C2)', 2, LAMBDA[0][0], vec_map)
-    
+    t_ok_2 = test_vertex_cycle(t_rotor, 't (C2)', 2, LAMBDA[1][5], vec_map)
+    #print(f"  teste: '{LAMBDA[0][2]}' LAMBDA[0][2].")
+    #print(f"  teste: '{LAMBDA[1][2]}' LAMBDA[0][2].")
+    #print(f"  teste: '{LAMBDA[0][0]}' LAMBDA[1][2].")
     s_ok = s_ok_set1 and s_ok_set2
 
     g_ok = False
