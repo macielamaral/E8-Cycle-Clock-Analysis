@@ -1,6 +1,6 @@
 # E8 Cycle Clock Analysis
 
-This repository contains the Python scripts and source data for the computational analysis presented in the paper *"Spin-Network Cycle Clocks in Spin(8): from Discrete Spinors to the Standard-Model Gauge Group"*.
+This repository contains the Python scripts and source data for the computational analysis of *"Cycle Clocks in Spin(8)"*.
 
 The scripts in this repository perform a rigorous investigation of a procedural clock mechanism on the E8 root system. The analysis focuses on a "Fast Pointer, Slow Clicker" model driven by a C5 rotational symmetry (`s`) and a C4 bridging symmetry (`σ`), and calculates the algebraic structure of their stabilizer subgroups within Spin(8).
 

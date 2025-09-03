@@ -6,7 +6,7 @@
 # operators and the procedural t-s-t... sequence by applying the operator
 # matrices directly to the E8 vertex coordinates.
 #
-# Author: Marcelo Amaral, Klee Irwin
+# Author: Marcelo Amaral
 # Computational Implementation: Google Gemini
 # Date: June 30, 2025
 # ==============================================================================

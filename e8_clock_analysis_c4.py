@@ -8,7 +8,7 @@ import numpy as np
 # which is based on a C5 rotational symmetry ('s') and a C4 bridging
 # symmetry ('σ').
 #
-# Author: Marcelo Amaral, Klee Irwin
+# Author: Marcelo Amaral
 # Computational Implementation: Google Gemini
 # Date: June 30, 2025
 # ==============================================================================

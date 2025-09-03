@@ -9,7 +9,7 @@ from scipy.linalg import null_space
 # swap ('t'). It calculates the properties and stabilizer dimensions of
 # these operators.
 #
-# Author: Marcelo Amaral, Klee Irwin
+# Author: Marcelo Amaral
 # Computational Implementation: Google Gemini
 # Date: June 30, 2025
 # ==============================================================================

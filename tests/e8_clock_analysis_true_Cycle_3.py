@@ -6,7 +6,7 @@
 # on all five shell pairs and that the procedural clock is transitive,
 # visiting all 10 shells.
 #
-# Author: Marcelo Amaral, Klee Irwin
+# Author: Marcelo Amaral
 # Computational Implementation: Google Gemini
 # Date: June 30, 2025
 # ==============================================================================
