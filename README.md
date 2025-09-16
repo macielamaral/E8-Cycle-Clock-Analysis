@@ -2,7 +2,7 @@
 
 This repository contains the Python scripts and source data for the computational analysis of *"Cycle Clocks in Spin(8)"*.
 
-The scripts in this repository perform a rigorous investigation of a procedural clock mechanism on the E8 root system. The analysis focuses on a "Fast Pointer, Slow Clicker" model driven by a C5 rotational symmetry (`s`) and a C4 bridging symmetry (`σ`), and calculates the algebraic structure of their stabilizer subgroups within Spin(8).
+The scripts in this repository perform a rigorous investigation of a procedural clock mechanism on the E8 root system. The analysis focuses on a "Fast Pointer, Slow Clicker" model driven by a C5 rotational symmetry (`s`) and a C4 bridging symmetry (`σ`), and calculates the algebraic structure of their stabilizer subgroups within Spin(8). We determine the stabilizer Lie algebras of the clock components: Stab(`s`)=su(3) and Stab(`σ`)=u4; their intersection is 3-dimensional (isomorphic to su(2)). These results isolate compact Lie subalgebras that align with the algebraic building blocks of the Standard Model and with Pati–Salam embeddings. 
 
 ## Project Goal
 
